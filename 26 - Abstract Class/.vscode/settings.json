@@ -1,0 +1,9 @@
+{
+    "editor.tabSize":4,
+    "editor.fontSize": 24,
+    // "editor.fontSize": 12,
+    "terminal.integrated.fontSize":22,
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "vscode-icons",
+}

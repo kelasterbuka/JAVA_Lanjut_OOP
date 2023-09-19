@@ -1,7 +1,7 @@
 package com.hero;
 
 public class HeroAgility extends Hero{
-	public String nickname;
+	private String nickname;
 	private String heroType = "Agility";
 
 	public HeroAgility(String name, double health){
@@ -16,5 +16,9 @@ public class HeroAgility extends Hero{
 
 	private void setHeroType(String heroType){
 		this.heroType = heroType;
+	}
+
+	private void setNickName(String nickname){
+		this.nickname = nickname;
 	}
 }

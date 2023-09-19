@@ -1,4 +1,4 @@
-package com.hero;
+package com.Hero;
 
 public abstract class Hero {
 	private String name;
@@ -9,8 +9,8 @@ public abstract class Hero {
 		this.health = health;
 	}
 
-	void display(){
-		System.out.println("Name: " + this.name);
-		System.out.println("Health: " + this.health);
+	public void display(){
+		System.out.println("Name : "+this.name);
+		System.out.println("Health : "+this.health);
 	}
 }

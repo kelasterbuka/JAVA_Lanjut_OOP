@@ -1,8 +1,8 @@
-package com.hero;
+package com.Hero;
 
 public class HeroAgility extends Hero{
+	private String heroType = "agility";
 	private String nickname;
-	private String heroType = "Agility";
 
 	public HeroAgility(String name, double health){
 		super(name,health);
@@ -10,8 +10,8 @@ public class HeroAgility extends Hero{
 
 	public void displayAll(){
 		this.display();
-		System.out.println("heroType: "+this.heroType);
-		System.out.println("nickname: "+this.nickname);
+		System.out.println("herotype : "+ this.heroType);
+		System.out.println("nickname : "+ this.nickname);
 	}
 
 	private void setHeroType(String heroType){
@@ -21,4 +21,5 @@ public class HeroAgility extends Hero{
 	private void setNickName(String nickname){
 		this.nickname = nickname;
 	}
+
 }
